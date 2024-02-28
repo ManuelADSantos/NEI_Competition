@@ -1,11 +1,21 @@
-# # ===== Open file
+# ============================================================================
+# Authors: Joana Pires & Manuel Santos
+# Date: 28/02/2024
+# ============================================================================
+# -> Run
+# python3 B.py
+# ============================================================================
+
+# === Reading from file
+# Open file
 # file = open('B.txt', 'r')
 
-# # ===== Read Lines
+# Read Lines
 # Lines = file.readlines()
 # file.close()
 # # print(Lines)
 
+# === Reading from stdin (input())
 Lines1 = input()
 Lines1 = Lines1.split(" ")
 # print(Lines)
